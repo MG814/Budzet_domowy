@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mój Budżet</string>
+    <string name="title">Title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="moje_tranzakcje">Moje Tranzakcje</string>
+    <string name="wydatki">Wydatki</string>
+    <string name="przychody">Przychody</string>
+    <string name="opis">Opis</string>
+    <string name="warto">Wartość</string>
+    <string-array name="type">
+        <item>Przychody</item>
+        <item>Wydatki</item>
+    </string-array>
+    <string-array name="category">
+        <item>Dom</item>
+        <item>Samochód</item>
+        <item>Jedzenie</item>
+        <item>Inne</item>
+    </string-array>
+    <string-array name="sort">
+        <item>Wszystko</item>
+        <item>Przychody</item>
+        <item>Wydatki</item>
+    </string-array>
+    />
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#94cf99</color>
+    <color name="red_200">#CF9494</color>
+    <color name="purple_500">#5eb67a</color>
+    <color name="purple_700">#31ae6a</color>
+    <color name="green_90per">#E63CD542</color>
+    <color name="green_80per">#CC3CD542</color>
+    <color name="green_70per">#B33CD542</color>
+    <color name="green_60per">#993CD542</color>
+    <color name="green_50per">#803CD542</color>
+    <color name="green_40per">#663CD542</color>
+    <color name="red">#CD0505</color>
+    <color name="red_70per">#B3CD0505</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_dark">#e9e9e9</color>
+    <color name="underline">#D8D6D6</color>
+</resources>

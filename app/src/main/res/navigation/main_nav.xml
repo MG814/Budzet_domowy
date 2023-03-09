@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/trFragment">
+    <fragment
+        android:id="@+id/trFragment"
+        android:name="com.example.mjbudet.fragments.TrFragment"
+        android:label="fragment_tr"
+        tools:layout="@layout/fragment_tr" >
+        <action
+            android:id="@+id/action_trFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newTrFragment"
+        android:name="com.example.mjbudet.fragments.NewTrFragment"
+        android:label="fragment_new_tr"
+        tools:layout="@layout/fragment_new_tr" />
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.mjbudet.fragments.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/incomeFragment"
+        android:name="com.example.mjbudet.fragments.charts.IncomeFragment"
+        android:label="fragment_income"
+        tools:layout="@layout/fragment_income" />
+    <fragment
+        android:id="@+id/outcomeFragment"
+        android:name="com.example.mjbudet.fragments.charts.OutcomeFragment"
+        android:label="fragment_outcome"
+        tools:layout="@layout/fragment_outcome" />
+    <fragment
+        android:id="@+id/summaryFragment"
+        android:name="com.example.mjbudet.fragments.SummaryFragment"
+        android:label="fragment_summary"
+        tools:layout="@layout/fragment_summary" />
+    <fragment
+        android:id="@+id/summaryChartFragment"
+        android:name="com.example.mjbudet.fragments.charts.SummaryChartFragment"
+        android:label="fragment_summary_chart"
+        tools:layout="@layout/fragment_summary_chart" />
+</navigation>
